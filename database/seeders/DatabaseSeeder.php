@@ -24,7 +24,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call([
-            OwnerSeeder::class
+            OwnerSeeder::class,
+            PatientSeeder::class
         ]);
     }
 }
